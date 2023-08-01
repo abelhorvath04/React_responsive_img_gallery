@@ -1,0 +1,43 @@
+#root{
+  height: 100vh;
+}
+
+.pswp {
+  z-index: 9999999 !important;
+}
+
+.pswp-gallery {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.gllry_p {
+  border-radius: 5px;
+  object-fit: cover;
+  width: 250px;
+  height: 300px;
+}
+
+.pswp-with-perma-preloader .pswp__icn {
+  opacity: 0.85 !important;
+}
+
+a{
+  color: rgb(69, 69, 69)!important;
+  font-size: 1.5rem;
+  font-weight: bold!important;
+}
+
+.card{
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  background-color: white;
+}
+
+h1{
+  color: black;
+  text-shadow: 1px 3px 3px rgb(164, 164, 164);
+  text-align: center;
+}
